@@ -8,6 +8,8 @@
 
 <title>RedVibe Cinema</title>
   <link rel="icon" type="image/jpeg" href="logo.jpeg"> <!-- Favicon -->
+  <button onclick="showLogin()">Login</button>
+  
   <style>
     /* Reset */
     * {
@@ -133,7 +135,12 @@
     </nav>
   </header>
 
-
+  <script>
+    function showLogin() {
+        const loginContainer = document.querySelector('.login-container');
+        loginContainer.style.display = 'flex'; // Pastikan 'display' sama seperti gaya CSS anda
+    }
+</script>
 
   <style>
     /* General Reset */
