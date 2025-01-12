@@ -1,2 +1,0 @@
-# cinema-ku
-Website
